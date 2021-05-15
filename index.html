@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+    <title>Whitelabel Framework Provider - Example Domain</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+    body {
+        background-color: #f0f0f2;
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        
+    }
+    div {
+        width: 600px;
+        margin: 5em auto;
+        padding: 2em;
+        background-color: #fdfdff;
+        border-radius: 0.5em;
+        box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+    }
+    a:link, a:visited {
+        color: #38488f;
+        text-decoration: none;
+    }
+    @media (max-width: 700px) {
+        div {
+            margin: 0 auto;
+            width: auto;
+        }
+    }
+    </style>    
+</head>
+
+<body>
+<div>
+    <h1>Example Domain</h1>
+	<h2>[White Label Provider]</h2>
+	<div>
+		<h3>Why do I see this?</h3>
+		<ul>
+			<?php
+			 if(true !== $isSelfHost){
+				echo `<li style="color:red;">Somebody else COULD try to set up a phishing site at<br />&quot;${$hostRequested}&quot;! Please check this!</li>`; 
+			 }
+			?>
+			
+			<li>You are visting a not assigned domain or some servers default page.</li>
+			<li>The ISP wants to delegate any possible contact requests back to the sub-registrar/provider who redirected you to this to protect his resellers.</li>
+			<li>Your site configuration was not setup properly.</li>
+			<li style="color:red;">You may like to check if somebody trys to do a phishing attack!</li>
+		</ul>		
+		
+		
+		<h3>What ca I do?</h3>
+		<ul>
+           <li>Nothing.</li>
+		   <li>Just refer to the support and sellers you know already!</li>
+		</ul>	
+		
+		
+	</div>
+    <p>This template is for use in illustrative examples in documents. You may use this
+    domain in literature without prior coordination or asking for permission.</p>
+    <p><a href="https://github.com/wfpu/wfpu">More information...</a></p>
+    <p><a href="https://www.iana.org/domains/example">This works similar to: https://www.iana.org/domains/example...</a></p>
+</div>
+</body>
+</html>
