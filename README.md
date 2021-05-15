@@ -7,4 +7,4 @@
 
 ### Reselling Templates
 
-+ [https://wfpu.github.io/wfpu/](Server Default Page)
++ [Server Default Page](https://wfpu.github.io/wfpu/)
