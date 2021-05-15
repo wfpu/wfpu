@@ -1,3 +1,5 @@
 # Whitelabel Framework Provider 🦄
 
- Hi there 👋
++ Payment Gates
++ Reselling Templates
++ Privacy Shields
